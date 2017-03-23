@@ -1,0 +1,178 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "bootstrap";
+@import "bootstrap-sprockets";
+
+/*-----------animation declarations--------*/
+
+@keyframes something {
+	from {
+		opacity:0;
+		color:lightgray;
+	}
+	to {
+		opacity:1;
+	}
+}
+
+/*---------layout styles-------------*/
+
+.primary_background {
+	width:1600px;
+	max-width: 100%;
+	height:900px;
+	max-height: 100% 100%;
+	background-image: url("Fishtown.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.secondary_background {
+	background: #485563; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #485563 , #29323c);
+	background: linear-gradient(to left, #485563 , #29323c);
+}
+
+.tertiary_background {
+	background: #304352; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #304352 , #d7d2cc); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #304352 , #d7d2cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height:100%;
+}
+
+.header {
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	padding:20px;
+	opacity:0;
+}
+
+.header2 {
+	text-align: center;
+	margin:20px;
+	color: white;
+	opacity:0;
+}
+
+.header3 {
+	text-align: center;
+	margin:20px;
+	color: white;
+	opacity:0;
+} 
+
+.header_container {
+	background-color: rgba(169, 169, 169, 0.8);
+}
+
+.fishtown_brand {
+	font-size: 20px;
+}
+
+a {
+	font-size: 20px;
+	color: white;
+}
+
+/*-----------content styling-----------*/
+
+.main_content {
+	color:white;
+	font-size: 20px;
+	text-align: center;
+	max-width: 75%;
+	opacity: 0;
+	margin:0 auto;
+}
+
+.bio_content {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	max-width: 75%;
+	opacity:0;
+	margin:0 auto;
+}
+
+#mateo-name {
+	color:firebrick;
+}
+
+.account_link {
+	color:darkblue;
+}
+
+/*-------------image styling--------------*/
+
+#mateo {
+	width:300px;
+	height:300px;
+	background-image: url("mateo.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity:0;
+	margin: 0 auto;
+}
+
+/*-----------devise styling----------*/
+
+.login {
+	margin:0 auto;
+	text-align: center;
+	padding-top:160px;
+}
+
+.sign_up {
+	margin:0 auto;
+	text-align: center;
+	padding-top:160px;
+}
+
+.field {
+	margin: 10px;
+	text-align: center;
+}
+
+.actions {
+	margin:0 auto;
+	text-align: center;
+	border-radius: 10px;
+}
+
+#user_email,
+#user_password,
+#user_password_confirmation {
+	width:400px;
+	border-radius: 10px;
+	border: 2px solid black;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding:10px;
+}
+
+.user_avatar {
+	margin:0 auto;
+	text-align: center;
+	border-radius: 12px;
+}
+
+.login_button {
+	width: 100px;
+	border-radius: 10px;
+}
+
+.login_header {
+	text-align: center;
+	margin:0 auto;
+}
+
+.register {
+	margin:0 auto !important;
+	text-align: center;
+}
+
+
