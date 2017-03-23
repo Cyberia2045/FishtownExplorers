@@ -4,4 +4,15 @@ body, html {
 	background: #304352;
 	background: -webkit-linear-gradient(to left, #304352 , #d7d2cc);
 	background: linear-gradient(to left, #304352 , #d7d2cc);
+	height:100%;
+	padding:0;
+	margin:0;
+}
+
+#map {
+	height:400px;
+	max-height: 100%;
+	width:600px;
+	max-width: 100%;
+	margin:0 auto;
 }
