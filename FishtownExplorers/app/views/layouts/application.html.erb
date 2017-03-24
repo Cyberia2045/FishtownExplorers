@@ -52,14 +52,20 @@
   </script>
 
 <script type="text/javascript" charset="utf-8">
-    function initMap() {
-      var philadelphia = {lat: 39.9489, lng: 75.1500};
+    function initMap(lat, lng) {
+      if(lat == undefined) {
+        lat = 39.9524
+      }
+      if(lng == undefined) {
+        lng = -75.1636
+      }
+      var location = {lat: lat, lng: lng};
       var map = new google.maps.Map(document.getElementById('map'), {
-      center: philadelphia,
-      zoom: 10
+      center: location,
+      zoom: 15
     });
     var marker = new google.maps.Marker({
-      position: philadelphia,
+      position: location,
       map: map
     });
   } // concludes the initMap function

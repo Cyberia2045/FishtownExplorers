@@ -16,3 +16,19 @@ body, html {
 	max-width: 100%;
 	margin:0 auto;
 }
+
+.locator {
+	text-align: center;
+}
+
+#location {
+	width:350px;
+	height:30px;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.65);
+	text-align:center;
+}
+
+#adventure_button {
+	border-radius: 10px;
+}
