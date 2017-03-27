@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
   post "/locate", to: "geo#locate"
 
-  get "/categories", to: "places#categories"
+  get "/explore", to: "places#explore"
   get "/libations", to: "places#libations"
   get "/pizza", to: "places#pizza"
   get "/coffee", to: "places#coffee"
@@ -17,7 +17,7 @@ Rails.application.routes.draw do
   get "/music", to: "places#music"
   get "/restuarants", to: "places#restaurants"
   get "/art", to: "places#art"
-  get "lodging", to: "places#lodging"
+  get "/lodging", to: "places#lodging"
   get "/allTheThings", to: "places#misc"
   get "/transportation", to: "places#transit"
 end
