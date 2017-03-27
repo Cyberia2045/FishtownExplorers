@@ -9,6 +9,8 @@ body, html {
 	margin:0;
 }
 
+/*-------map styling--------*/
+
 #map {
 	height:400px;
 	max-height: 100%;
@@ -32,3 +34,125 @@ body, html {
 #adventure_button {
 	border-radius: 10px;
 }
+
+/*--------category styling-----------*/
+
+.category_header {
+	text-align: center;
+	color: white;
+}
+
+.category_subheader {
+	text-align: center;
+	color: white;
+}
+
+.col_md_4 {
+	width:300px;
+	max-width: 100%;
+	height:300px;
+	max-height:50%;
+	float: left;
+}
+
+.row {
+	margin:40px;
+}
+
+/*---------category image styling-------------*/
+
+.pizza_pic,
+.libation_pic,
+.coffee_pic,
+.shops_pic,
+.yoga_pic,
+.parks_pic,
+.music_pic,
+.art_pic,
+.restaurants_pic,
+.misc_pic,
+.lodging_pic,
+.transit_pic {
+	width: 300px;
+	max-width: 100%;
+	height: 300px;
+	max-height: 50%;
+	background-color: red;
+	margin: 0 auto;
+}
+
+.pizza_pic {
+	background-image: url("pizza_pic.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.libation_pic {
+	background-image: url("libations_pic.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.coffee_pic {
+	background-image: url("coffee.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.shops_pic {
+	background-image: url("small_business.jpeg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.yoga_pic {
+	background-image: url("yoga.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.parks_pic {
+	background-image: url("penntreaty3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.music_pic {
+	background-image: url("kungFuNecktie.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.restaurants_pic {
+	background-image: url("restaurant.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.art_pic {
+	background-image: url("art.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.lodging_pic {
+	background-image: url("AirBNB.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.transit_pic {
+	background-image: url("subway.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.misc_pic {
+	background-image: url("misc.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+

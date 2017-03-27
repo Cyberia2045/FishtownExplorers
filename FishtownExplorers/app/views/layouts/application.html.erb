@@ -51,25 +51,5 @@
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsbGBG4DuYkmK8v-fpIi5vjdDMY1XjqBM&callback=initMap">
   </script>
 
-<script type="text/javascript" charset="utf-8">
-    function initMap(lat, lng) {
-      if(lat == undefined) {
-        lat = 39.9524
-      }
-      if(lng == undefined) {
-        lng = -75.1636
-      }
-      var location = {lat: lat, lng: lng};
-      var map = new google.maps.Map(document.getElementById('map'), {
-      center: location,
-      zoom: 15
-    });
-    var marker = new google.maps.Marker({
-      position: location,
-      map: map
-    });
-  } // concludes the initMap function
-</script>
-
 </body>
 </html>

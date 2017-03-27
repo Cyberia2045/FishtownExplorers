@@ -5,5 +5,7 @@ Rails.application.routes.draw do
   root to: "home#index"
   get "/itinerary", to: "itineraries#show"
 
+  get "/categories", to: "home#categories"
+
   post "/locate", to: "geo#locate"
 end
