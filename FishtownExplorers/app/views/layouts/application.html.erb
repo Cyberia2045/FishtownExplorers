@@ -22,19 +22,17 @@
       <span class="icon-bar"></span>
     </button>
       <% if current_user %>
-        <%= link_to "Fishtown Explorers", user_profile_path(current_user.id), class: "fishtown_brand" %>
+        <a class="navbar-brand"><%= link_to "Fishtown Explorers", user_profile_path(current_user.id), class: "fishtown_brand" %></a>
       <% else %>  
-        <%= link_to "Fishtown Explorers", root_path %>
+        <a class="navbar-brand"><%= link_to "Fishtown Explorers", root_path %></a>
       <% end %>
   </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    <ul class="nav navbar-nav">
-    </ul>
     <ul class="nav navbar-nav navbar-right">
       <% if current_user %>
-      <li class="active"><%= link_to "Logout", destroy_user_session_path, method: :delete %><span class="sr-only">(current)</span></a></li>
+      <li class="active"><%= link_to "Logout", destroy_user_session_path, method: :delete %><span class="sr-only">(current)</span></li>
       <% else %>
       <li class="active"><%= link_to "Login", user_session_path %><span class="sr-only">(current)</span></a></li>
       <% end %>

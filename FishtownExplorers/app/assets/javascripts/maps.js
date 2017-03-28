@@ -11,7 +11,7 @@
       zoom: 15
     });
 
-    var content = "<h1>Girard Station</h1>"
+    var content = "<h1 class = info_header>Girard Station</h1>"
 
     var infowindow = new google.maps.InfoWindow({
     	content: content

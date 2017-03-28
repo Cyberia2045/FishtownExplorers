@@ -35,7 +35,7 @@ body, html {
 	border-radius: 10px;
 }
 
-/*--------category styling-----------*/
+/*--------category layout styling-----------*/
 
 .category_header {
 	text-align: center;
@@ -45,6 +45,16 @@ body, html {
 .category_subheader {
 	text-align: center;
 	color: white;
+}
+
+.place_categories {
+	width: 300px;
+	max-width: 100%;
+	height: 300px;
+	max-height: 50%;
+	background-color: red;
+	margin: 0 auto;
+	border-radius: 10px;
 }
 
 .col_md_4 {
@@ -59,27 +69,43 @@ body, html {
 	margin:40px;
 }
 
-/*---------category image styling-------------*/
+/*---------places layout styling-------------*/
 
-.pizza_pic,
-.libation_pic,
-.coffee_pic,
-.shops_pic,
-.yoga_pic,
-.parks_pic,
-.music_pic,
-.art_pic,
-.restaurants_pic,
-.misc_pic,
-.lodging_pic,
-.transit_pic {
+.places {
 	width: 300px;
 	max-width: 100%;
 	height: 300px;
 	max-height: 50%;
 	background-color: red;
-	margin: 0 auto;
+	border-radius: 10px;
+	margin:10px;
 }
+
+.place_description {
+	font-size: 20px;
+	color: white;
+	margin:10px;
+	margin-left: 40px;
+	padding-left: 30px;
+	padding: 10px;
+	width:1100px;
+	max-width: 95%;
+	text-align: left;
+}
+
+.places_subheader {
+	color: white;
+	text-align: left;
+	margin:10px;
+}
+
+.places_container {
+	margin: 20px;
+	width: 100%;
+	float: left;
+}
+
+/*--------place category image styling---------*/
 
 .pizza_pic {
 	background-image: url("pizza_pic.jpg");
@@ -152,6 +178,33 @@ body, html {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
+/*-------------pizza pics-------------*/
+
+.pizzeria_beddia_pic {
+	background-image: url("pizzeria_beddia.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.slice_pic {
+	background-image: url("slice.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.medusa_pic {
+	background-image: url("medusa.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+
+
+
 
 
 

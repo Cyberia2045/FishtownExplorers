@@ -1,3 +1,21 @@
 // Place all the styles related to the itineraries controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.info_header {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	padding: 10px;
+	background-color: #48b5e9;
+	color: white;
+	margin: 1px;
+	border-radius: 2px 2px 0 0;
+}
+
+.gm-style-iw {
+	width: 350px !important;
+	top: 0 !important;
+	left: 0 !important;
+	border-radius: 2px 2px 0 0;
+}
