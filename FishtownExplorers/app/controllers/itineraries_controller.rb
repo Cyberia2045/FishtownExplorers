@@ -18,8 +18,5 @@ class ItinerariesController < ApplicationController
 	def new
 		@itinerary_new = Itinerary.new
 	end
-end
 
-	def show
-	end
 end
