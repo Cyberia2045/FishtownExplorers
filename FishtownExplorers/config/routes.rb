@@ -3,9 +3,12 @@ Rails.application.routes.draw do
   devise_for :users
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   root to: "home#index"
-  get "/itinerary", to: "itineraries#show"
 
   post "/locate", to: "geo#locate"
+
+# users routing
+
+  get "/profile/:id", to: "users#show"
 
 # places routing
 
@@ -22,5 +25,13 @@ Rails.application.routes.draw do
   get "/lodging", to: "places#lodging"
   get "/allTheThings", to: "places#misc"
   get "/transportation", to: "places#transit"
+
+# itineraries routing
+
+  get "/itinerary_new", to: "itineraries#new"
+  get "/itinerary_portal", to: "itineraries#index"
+  get "/itinerary", to: "itineraries#show"
+  get "/add_place/:id", to: "itineraries#add_place"
+  get "/delete_itinerary", to: "itineraries#destroy"
 
 end

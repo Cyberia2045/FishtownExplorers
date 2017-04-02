@@ -13,3 +13,10 @@
 		<% end %>
 </div>
 
+<div class = "itinerary_list">
+	<h1 class = "itinerary_header">Fishtown Pizza Crawl</h1>
+		<% @itinerary_places.each do |itinerary| %>
+			<li class = "itinerary_items"><%= itinerary.name %></li>
+		<% end %>
+</div>
+

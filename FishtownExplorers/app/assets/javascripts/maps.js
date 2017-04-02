@@ -21,6 +21,7 @@
       position: location,
       map: map
     });
+    
     marker.addListener("click", function() {
     	infowindow.open(map, marker);
     });
