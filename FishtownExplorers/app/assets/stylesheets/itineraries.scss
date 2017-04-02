@@ -1,3 +1,64 @@
 // Place all the styles related to the itineraries controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.info_header {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	padding: 10px;
+	background-color: #48b5e9;
+	color: white;
+	margin: 1px;
+	border-radius: 2px 2px 0 0;
+}
+
+.gm-style-iw {
+	width: 350px !important;
+	top: 0 !important;
+	left: 0 !important;
+	border-radius: 2px 2px 0 0;
+}
+
+.itinerary_list {
+	margin:0 auto;
+	width:600px;
+	max-width: 90%;
+	height:300px;
+	max-height: 90%;
+	background-color: rgba(0,0,0, 0.3);
+}
+
+.itinerary_header {
+	color: white;
+	text-align: center;
+}
+
+.itinerary_items {
+	font-size: 24px;
+	color:white;
+	text-align: left;
+	margin:20px;
+}
+
+/*----------itinerary form ------------*/
+
+#itinerary_title {
+	width:400px;
+	border-radius: 10px;
+	border: 2px solid black;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding:10px;
+}
+
+.itinerary_new {
+	text-align: center;
+}
+
+.itinerary_new_container {
+	background-color: rgba(0,0,0, 0.3);
+	width:85%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	padding:3px;
+}

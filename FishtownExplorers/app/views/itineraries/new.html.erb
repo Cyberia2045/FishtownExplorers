@@ -1,0 +1,16 @@
+<div class = "itinerary_new_container">
+<h1 class = "category_header">Explore All that Fishtown Has to Offer</h1>
+
+<h2 class = "category_subheader">Make an Itinerary For Your Trip</h2>
+</div>
+
+<div class = "itinerary_new" >
+<%= form_for @itinerary_new, url: {action: "new"}, html: {} do |f| %>
+	
+	<%= f.text_field :title, placeholder: "Name Your New Itinerary" %>
+
+	<%= f.submit :class => "user_submit" %>
+
+<% end %>
+</div>
+
