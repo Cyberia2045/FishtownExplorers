@@ -7,5 +7,4 @@ class User < ApplicationRecord
  	validates_attachment_content_type :avatar, content_type: /\Aimage\/.*\z/
  	has_many :itineraries
  	has_many :places, through: :itineraries
-
 end

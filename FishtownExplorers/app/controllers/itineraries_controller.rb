@@ -19,3 +19,7 @@ class ItinerariesController < ApplicationController
 		@itinerary_new = Itinerary.new
 	end
 end
+
+	def show
+	end
+end

@@ -6,10 +6,6 @@ Rails.application.routes.draw do
 
   post "/locate", to: "geo#locate"
 
-# users routing
-
-  get "/profile/:id", to: "users#show"
-
 # places routing
 
   get "/explore", to: "places#explore"
