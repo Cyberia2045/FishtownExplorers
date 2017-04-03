@@ -29,5 +29,6 @@ Rails.application.routes.draw do
   get "/itinerary", to: "itineraries#show"
   get "/add_place/:id", to: "itineraries#add_place"
   get "/delete_itinerary", to: "itineraries#destroy"
+  post "/create_itinerary", to: "itinerary#create"
 
 end
