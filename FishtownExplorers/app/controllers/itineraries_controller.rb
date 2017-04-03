@@ -18,5 +18,17 @@ class ItinerariesController < ApplicationController
 	def new
 		@itinerary_new = Itinerary.new
 	end
+	
+	def create
+		itinerary = Itinerary.new(itinerary_params)
+		itinerary.user_id = session[:user_id]
+		itinerary.save
+	end
+
+	private
+
+	def itinerary_params
+		params.require(:itinerary).permit(:title)
+	end
 
 end

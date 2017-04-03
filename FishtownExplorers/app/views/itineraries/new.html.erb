@@ -5,7 +5,7 @@
 </div>
 
 <div class = "itinerary_new" >
-<%= form_for @itinerary_new, url: {action: "new"}, html: {} do |f| %>
+<%= form_for @itinerary_new, url: {action: "new", method: "POST"}, html: {} do |f| %>
 	
 	<%= f.text_field :title, placeholder: "Name Your New Itinerary" %>
 
