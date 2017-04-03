@@ -1,6 +1,5 @@
 class ItinerariesController < ApplicationController
 	def add_place
-		# current_user
 		@place = Place.find(params[:id])
 		@itenerary = @place.itineraries.create(user_id: current_user.id)
 
@@ -21,14 +20,14 @@ class ItinerariesController < ApplicationController
 	
 	def create
 		itinerary = Itinerary.new(itinerary_params)
-		itinerary.user_id = session[:user_id]
+		itinerary.user_id = current_user.id
 		itinerary.save
 	end
 
 	private
 
 	def itinerary_params
-		params.require(:itinerary).permit(:title)
+		params.require(:itinerary).permit(:title, :user_id, :place_id)
 	end
 
 end
