@@ -1,17 +1,11 @@
 class ItinerariesController < ApplicationController
-	def add_place
-		@place = Place.find(params[:id])
-		@itenerary = @place.itineraries.create(user_id: current_user.id)
-
-		redirect_to :back
-	end
 
 	def index
-		@itinerary_places = current_user.places
+		@itinerary = current_user.itineraries
 	end
 
 	def show
-		@itinerary_places = current_user.places
+		@itinerary = Itinerary.find(params[:id])
 	end
 
 	def new
@@ -19,15 +13,17 @@ class ItinerariesController < ApplicationController
 	end
 	
 	def create
-		itinerary = Itinerary.new(itinerary_params)
-		itinerary.user_id = current_user.id
-		itinerary.save
+		@itinerary_new = Itinerary.new(itinerary_params)
+		
+		@itinerary_new.save
+
+		redirect_to itineraries_path
 	end
 
 	private
 
 	def itinerary_params
-		params.require(:itinerary).permit(:title, :user_id, :place_id)
+		params.require(:itinerary).permit(:title, :user_id)
 	end
 
 end

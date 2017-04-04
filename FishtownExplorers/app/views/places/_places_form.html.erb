@@ -1,0 +1,25 @@
+<%= form_for @place do |f| %>
+
+<%= f.text_field :name, placeholder: "name" %>
+
+<%= f.number_field :latitude, placeholder: "Latitude" %>
+
+<%= f.number_field :longitude, placeholder: "Longitude" %>
+
+<br><br>
+
+<%= f.text_field :description, placeholder: "Description" %>
+
+<br><br>
+
+<%= f.file_field :avatar %>
+
+<%= f.hidden_field :category, value: "pizza" %>
+
+<br>
+
+<%= f.submit %>
+
+<br><br>
+
+<% end %>

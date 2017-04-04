@@ -179,25 +179,8 @@ body, html {
 	background-repeat: no-repeat;
 }
 
-/*-------------pizza pics-------------*/
+/*-------------place pics-------------*/
 
-.pizzeria_beddia_pic {
-	background-image: url("pizzeria_beddia.jpg");
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	float: left;
-}
-
-.slice_pic {
-	background-image: url("slice.png");
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	float: left;
-}
-
-.medusa_pic {
-	background-image: url("medusa.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	float: left;
+.pizza_places {
+	float:left;
 }

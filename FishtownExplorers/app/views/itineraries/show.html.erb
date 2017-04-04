@@ -14,9 +14,9 @@
 </div>
 
 <div class = "itinerary_list">
-	<h1 class = "itinerary_header">Fishtown Pizza Crawl</h1>
-		<% @itinerary_places.each do |itinerary| %>
-			<li class = "itinerary_items"><%= itinerary.name %></li>
+	<h1 class = "itinerary_header"><%=  %></h1>
+		<% @itinerary.places.each do |place| %>
+			<li class = "itinerary_items"><%= place.name %></li>
 		<% end %>
 </div>
 

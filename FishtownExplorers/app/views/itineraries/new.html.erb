@@ -5,12 +5,16 @@
 </div>
 
 <div class = "itinerary_new" >
-<%= form_for @itinerary_new, url: {action: "new", method: "POST"}, html: {} do |f| %>
+
+<%= form_for @itinerary_new do |f| %>
 	
 	<%= f.text_field :title, placeholder: "Name Your New Itinerary" %>
+
+	<%= f.hidden_field :user_id, :value => current_user.id %>
 
 	<%= f.submit :class => "user_submit" %>
 
 <% end %>
+
 </div>
 

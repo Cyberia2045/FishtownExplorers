@@ -1,3 +1,9 @@
 <h1 class = "category_header">The Itinerary Portal</h1>
 
 <h2 class = "category_subheader"><%= link_to "Create a New Itinerary", new_itinerary_path %></h2>
+
+<div class = "itinerary_list">
+	<% @itinerary.each do |itinerary| %>
+			<li class = "itinerary_items"><%= itinerary.title %></li> 
+	<% end %>
+</div>

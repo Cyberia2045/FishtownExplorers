@@ -22,9 +22,14 @@ Rails.application.routes.draw do
   get "/allTheThings", to:   "places#misc"
   get "/transportation", to: "places#transit"
 
+  post "/places", to:         "places#create"
+
 # itineraries routing
 
 resources :itineraries
-  get "/add_place/:id", to:  "itineraries#add_place"
+
+# visits routing
+
+resources :visits
 
 end
