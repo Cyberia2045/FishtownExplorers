@@ -14,8 +14,10 @@
 <div class = "itinerary_list">
 	<h1 class = "itinerary_header"><%=  %></h1>
 		<% @itinerary.places.each do |place| %>
-			<li class = "itinerary_items"><%= place.name %></li>
-
+			<li class = "itinerary_items" data-lat = <%= place.latitude %> data-lng = <%= place.longitude %>><%= place.name %></li>
 		<% end %>
 
 </div>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsbGBG4DuYkmK8v-fpIi5vjdDMY1XjqBM">
+</script>

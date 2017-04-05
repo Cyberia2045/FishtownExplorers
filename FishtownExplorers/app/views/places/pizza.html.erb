@@ -4,9 +4,9 @@
 	<% @places.each do |place| %>
 		<h2 class = "places_subheader"><%= place.name %></h2>
 		<div class = "places pizza_places"><%= image_tag(place.avatar, :class => "avatar_images") %></div>
-			<p class = "place_description">
+			<div class = "place_description">
 				<%= place.description %>
-			</p>
+			</div>
 
 	<%= form_for @visit do |f| %>
 
@@ -16,9 +16,10 @@
 
 	<%= f.submit %>
 
-<% end %>
 	<% end %>
-		
+<% end %>
+
+
 </div>
 
 <br><br>
