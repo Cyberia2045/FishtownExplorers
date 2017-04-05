@@ -1,22 +1,21 @@
-<br>
-<br>
+<br><br>
 
 <div id="map"></div>
 
-<br>
-<br>
+<br><br>
 
 <div class = "locator">
 	<%= form_tag("/locate", remote: true) do %>
 		<%= text_field_tag "location" %>
 		<%= submit_tag %>
-		<% end %>
+	<% end %>
 </div>
 
 <div class = "itinerary_list">
 	<h1 class = "itinerary_header"><%=  %></h1>
 		<% @itinerary.places.each do |place| %>
 			<li class = "itinerary_items"><%= place.name %></li>
-		<% end %>
-</div>
 
+		<% end %>
+
+</div>

@@ -17,12 +17,12 @@
     	content: content
     });
 
-    var marker = new google.maps.Marker({
-      position: location,
-      map: map
-    });
+    // var marker = new google.maps.Marker({
+    //   position: location,
+    //   map: map
+    // });
     
-    marker.addListener("click", function() {
-    	infowindow.open(map, marker);
-    });
+    // marker.addListener("click", function() {
+    // 	infowindow.open(map, marker);
+    // });
   } // concludes the initMap function

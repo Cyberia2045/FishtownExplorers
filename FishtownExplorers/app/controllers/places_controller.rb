@@ -4,6 +4,8 @@ class PlacesController < ApplicationController
 		@place.category = "pizza"
 
 		@places = Place.where(category: "pizza")
+
+		@visit = Visit.new
 	end
 	
 	def create

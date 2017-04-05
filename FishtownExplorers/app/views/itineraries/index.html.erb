@@ -4,6 +4,8 @@
 
 <div class = "itinerary_list">
 	<% @itinerary.each do |itinerary| %>
+		<%= link_to itinerary do %>
 			<li class = "itinerary_items"><%= itinerary.title %></li> 
+		<% end %>
 	<% end %>
 </div>

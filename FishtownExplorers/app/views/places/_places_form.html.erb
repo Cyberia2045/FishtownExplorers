@@ -1,14 +1,14 @@
 <%= form_for @place do |f| %>
 
-<%= f.text_field :name, placeholder: "name" %>
+<%= f.text_field :name, placeholder: "Place Name" %>
 
-<%= f.number_field :latitude, placeholder: "Latitude" %>
+<%= f.number_field :latitude, placeholder: "Latitude", step: :any %>
 
-<%= f.number_field :longitude, placeholder: "Longitude" %>
+<%= f.number_field :longitude, placeholder: "Longitude", step: :any %>
 
 <br><br>
 
-<%= f.text_field :description, placeholder: "Description" %>
+<%= f.text_field :description, placeholder: "Tell Us About This Place" %>
 
 <br><br>
 
@@ -18,7 +18,7 @@
 
 <br>
 
-<%= f.submit %>
+<%= f.submit "Add a Place", :class => "submit_button" %>
 
 <br><br>
 
