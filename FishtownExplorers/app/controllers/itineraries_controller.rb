@@ -20,6 +20,13 @@ class ItinerariesController < ApplicationController
 		redirect_to itineraries_path
 	end
 
+	def destroy
+		@itinerary = Itinerary.find(params[:id])
+		@itinerary.destroy
+
+		redirect_to :back
+	end
+
 	private
 
 	def itinerary_params

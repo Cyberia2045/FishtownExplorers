@@ -14,13 +14,7 @@ window.addEventListener("load", function(event){
 }); // closes window.onload
 
     function initMap(locations) {
-      // if(lat == undefined) {
-      //   lat = 39.968895
-      // }
-      // if(lng == undefined) {
-      //   lng = -75.136252
-      // }
-      // var location = {lat: parseFloat(lat), lng: parseFloat(lng)};
+
       // var bounds = new google.maps.LatLngBounds();
       var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 15,

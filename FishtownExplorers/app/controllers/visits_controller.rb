@@ -8,6 +8,10 @@ class VisitsController < ApplicationController
   end
 
   def destroy
+    @visit = Visit.find(params[:id])
+    @visit.destroy
+
+    redirect_to :back
   end
 
   def visit_params

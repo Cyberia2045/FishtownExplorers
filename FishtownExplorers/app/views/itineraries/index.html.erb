@@ -5,7 +5,7 @@
 <div class = "itinerary_list">
 	<% @itinerary.each do |itinerary| %>
 		<%= link_to itinerary do %>
-			<li class = "itinerary_items"><%= itinerary.title %></li> 
+			<li class = "itinerary_items"><%= itinerary.title %><span class = "delete_link"><p class = "delete_link"><%= link_to " Delete", "/itineraries/#{itinerary.id}", method: :delete, data: { confirm: "Are you sure?" } %></p></span></li> 
 		<% end %>
 	<% end %>
 </div>
