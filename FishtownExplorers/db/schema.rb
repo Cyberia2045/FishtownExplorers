@@ -10,13 +10,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170402040005) do
+ActiveRecord::Schema.define(version: 20170404193630) do
 
   create_table "itineraries", force: :cascade do |t|
     t.integer  "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer  "place_id"
     t.string   "title"
   end
 
@@ -24,8 +23,14 @@ ActiveRecord::Schema.define(version: 20170402040005) do
     t.string   "name"
     t.decimal  "latitude"
     t.decimal  "longitude"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",          null: false
+    t.datetime "updated_at",          null: false
+    t.text     "description"
+    t.string   "avatar_file_name"
+    t.string   "avatar_content_type"
+    t.integer  "avatar_file_size"
+    t.datetime "avatar_updated_at"
+    t.text     "category"
   end
 
   create_table "users", force: :cascade do |t|
@@ -50,6 +55,13 @@ ActiveRecord::Schema.define(version: 20170402040005) do
     t.integer  "user_id"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
+  end
+
+  create_table "visits", force: :cascade do |t|
+    t.integer  "itinerary_id"
+    t.integer  "place_id"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
   end
 
 end

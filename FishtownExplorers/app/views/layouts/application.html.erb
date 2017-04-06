@@ -30,7 +30,7 @@
 
       <% if current_user %>
         
-        <li class="active"><%= link_to "The Itinerary Portal", itinerary_portal_path %></li>
+        <li class="active"><%= link_to "The Itinerary Portal", itineraries_path %></li>
 
       <% else %>
       
@@ -59,9 +59,6 @@
      <p class="alert"><%= alert %></p>
 
   <%= yield %>
-
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsbGBG4DuYkmK8v-fpIi5vjdDMY1XjqBM&callback=initMap">
-  </script>
 
 </body>
 </html>

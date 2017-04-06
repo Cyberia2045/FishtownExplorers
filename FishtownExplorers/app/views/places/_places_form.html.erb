@@ -1,0 +1,25 @@
+<%= form_for @place do |f| %>
+
+<%= f.text_field :name, placeholder: "Place Name" %>
+
+<%= f.number_field :latitude, placeholder: "Latitude", step: :any %>
+
+<%= f.number_field :longitude, placeholder: "Longitude", step: :any %>
+
+<br><br>
+
+<%= f.text_field :description, placeholder: "Tell Us About This Place", :cols => 30, :rows => 10 %>
+
+<br><br>
+
+<%= f.file_field :avatar %>
+
+<%= f.hidden_field :category, value: "pizza" %>
+
+<br>
+
+<%= f.submit "Add a Place", :class => "submit_button" %>
+
+<br><br>
+
+<% end %>

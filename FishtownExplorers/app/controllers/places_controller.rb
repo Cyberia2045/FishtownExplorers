@@ -1,5 +1,20 @@
 class PlacesController < ApplicationController
-	# def create
-	# 	Place.create(user_id: params[:user_id])
-	# end
+	def pizza
+		@place = Place.new
+		@place.category = "pizza"
+
+		@places = Place.where(category: "pizza")
+
+		@visit = Visit.new
+	end
+	
+	def create
+		place = Place.create(place_params)
+		redirect_to :back
+	end
+
+  def place_params
+		params.require(:place).permit(:category, :name, :latitude, :longitude, :avatar, :description)
+  end
+
 end

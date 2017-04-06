@@ -1,3 +1,43 @@
 // Place all the styles related to the places controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#place_name,
+#place_latitude,
+#place_longitude {
+	width:250px;
+	height:30px;
+	border-radius: 10px;
+	border: 2px solid black;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding:10px;
+}
+
+#place_description {
+	width:600px;
+	height:300px;
+	border-radius: 10px;
+	border: 2px solid black;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding:10px;
+}
+
+#place_avatar {
+	margin:0 auto;
+}
+
+.form_container {
+	text-align: center;
+}
+
+.avatar_images {
+	width:300px;
+	max-width: 100%;
+	height: 300px;
+	max-height: 100%;
+	border-radius: 10px;
+}
+
+.submit_button {
+	border-radius: 10px;
+}

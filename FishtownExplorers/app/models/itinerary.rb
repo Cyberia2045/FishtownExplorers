@@ -1,4 +1,4 @@
 class Itinerary < ApplicationRecord
-	belongs_to :user
-	belongs_to :place
+	has_many :visits
+	has_many :places, through: :visits
 end

@@ -1,39 +1,45 @@
-   function initMap(lat, lng) {
-      if(lat == undefined) {
-        lat = 39.968895
+window.addEventListener("load", function(event){ 
+  
+    var itinerary = document.getElementsByClassName("itinerary_items")
+    var locations = []
+    for(i = 0; i < itinerary.length; i++){
+        var lat = itinerary[i].dataset.lat
+        var lng = itinerary[i].dataset.lng
+        var location = [lat, lng]
+        locations.push(location)
       }
-      if(lng == undefined) {
-        lng = -75.136252
-      }
-      var location = {lat: lat, lng: lng};
+
+  initMap(locations)
+
+}); // closes window.onload
+
+    function initMap(locations) {
+      // if(lat == undefined) {
+      //   lat = 39.968895
+      // }
+      // if(lng == undefined) {
+      //   lng = -75.136252
+      // }
+      // var location = {lat: parseFloat(lat), lng: parseFloat(lng)};
+      // var bounds = new google.maps.LatLngBounds();
       var map = new google.maps.Map(document.getElementById('map'), {
-      center: location,
-      zoom: 15
+      zoom: 15,
+      center: {lat: 39.968895, lng: -75.136252}
     });
+    // var content = ""
 
-    var content = "<h1 class = info_header>Girard Station</h1>"
-
-    var infowindow = new google.maps.InfoWindow({
-    	content: content
-    });
-
-    var marker = new google.maps.Marker({
-      position: location,
-      map: map
-    });
-    
-    marker.addListener("click", function() {
-    	infowindow.open(map, marker);
-    });
+    // var infowindow = new google.maps.InfoWindow({
+    // 	content: content
+    // });
+    for (i = 0; i < locations.length; i++) {
+      var marker = new google.maps.Marker({
+        position: new google.maps.LatLng(parseFloat(locations[i][0]), parseFloat(locations[i][1])),
+        map: map
+      });
+    }
+    // marker.addListener("click", function() {
+    // 	infowindow.open(map, marker);
+    // });
   } // concludes the initMap function
 
-//   function initMap() {
-//   map = new google.maps.Map(document.getElementById('map'), {
-//     center: {lat: -34.397, lng: 150.644},
-//     zoom: 8
-//   });
-//   var marker = new google.maps.Marker({
-//     position: uluru,
-//     map: map
-//   });
-// } // concludes the initMap function
+
