@@ -8,8 +8,15 @@ window.addEventListener("load", function(event){
         var location = [lat, lng]
         locations.push(location)
       }
+      
+      //   var content_array = []    
+      
+      // for(i = 0; i < itinerary.length; i++) {
+      //   var content = itinerary[i].dataset.description
+      //   content_array.push(content)
+      //     }
 
-  initMap(locations)
+       initMap(locations)
 
 }); // closes window.onload
 
@@ -20,20 +27,23 @@ window.addEventListener("load", function(event){
       zoom: 15,
       center: {lat: 39.968895, lng: -75.136252}
     });
-    // var content = ""
 
     // var infowindow = new google.maps.InfoWindow({
-    // 	content: content
+    // 	content: content_array
     // });
+
     for (i = 0; i < locations.length; i++) {
       var marker = new google.maps.Marker({
         position: new google.maps.LatLng(parseFloat(locations[i][0]), parseFloat(locations[i][1])),
         map: map
       });
     }
+
     // marker.addListener("click", function() {
     // 	infowindow.open(map, marker);
     // });
+
   } // concludes the initMap function
+
 
 
