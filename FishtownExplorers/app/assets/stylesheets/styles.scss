@@ -108,73 +108,73 @@ body, html {
 /*--------place category image styling---------*/
 
 .pizza_pic {
-	background-image: url("pizza_pic.jpg");
+	background-image: url("https://s3.amazonaws.com/fishtown-explorers/pizza_pic.jpg?X-Amz-Date=20170417T224536Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=5d3c622ba2d4eb1e2294648fbe4c835ad57ba6ae323bf392aa8fba72f1510f9b&X-Amz-Credential=ASIAJ4DKAWJT23AKW32A/20170417/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=FQoDYXdzEDcaDJpUU5S82877spcWfCL6Aelsk2OnsfTGcQIorDolUbpqMBkzsR/b5aEBGDXxaIy%2BBV7nCfksYvN2YTA6GlLdPWiYTh59QCojQy9kgXo/VJU26fkEZoPxk5Fwp6tv4VKamIT5YJIF8Ee4UebtsntD2fWDRmZEHnmxOzdctL/ElKT9CcsyYQ0aYF7hZgYJ/Rnnz2PKzECadFrkIfBN%2BU%2B4a76lc04Lmp5kNZbsCmslnFTsqYbPvEnwBSzCCG69IyFrOljXsXnwzbyRdNZ9nNCazGeYWhJfXmT3gEqVTTVJsw%2BXSb9heqZku5kSsxGdC50gTF6nm50jo3R6L3rIfWjxl8n1RcYeWLPV8EcoyuXUxwU%3D");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .libation_pic {
-	background-image: url("libations_pic.jpg");
+	background-image: url("https://s3.amazonaws.com/fishtown-explorers/libations_pic.jpg?X-Amz-Date=20170417T224618Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=37659fe86529735c31d8fb2e3cb50346af83a49fe187da4100f18f3f44993d76&X-Amz-Credential=ASIAJ4DKAWJT23AKW32A/20170417/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=FQoDYXdzEDcaDJpUU5S82877spcWfCL6Aelsk2OnsfTGcQIorDolUbpqMBkzsR/b5aEBGDXxaIy%2BBV7nCfksYvN2YTA6GlLdPWiYTh59QCojQy9kgXo/VJU26fkEZoPxk5Fwp6tv4VKamIT5YJIF8Ee4UebtsntD2fWDRmZEHnmxOzdctL/ElKT9CcsyYQ0aYF7hZgYJ/Rnnz2PKzECadFrkIfBN%2BU%2B4a76lc04Lmp5kNZbsCmslnFTsqYbPvEnwBSzCCG69IyFrOljXsXnwzbyRdNZ9nNCazGeYWhJfXmT3gEqVTTVJsw%2BXSb9heqZku5kSsxGdC50gTF6nm50jo3R6L3rIfWjxl8n1RcYeWLPV8EcoyuXUxwU%3D");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .coffee_pic {
-	background-image: url("coffee.jpg");
+	background-image: url("https://s3.amazonaws.com/fishtown-explorers/coffee.jpg?X-Amz-Date=20170417T224639Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=7b30e0950f8a1bdc787753d26d75d4a578de7ede2e3825a1eba7c9ef39f2ea45&X-Amz-Credential=ASIAJ4DKAWJT23AKW32A/20170417/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=FQoDYXdzEDcaDJpUU5S82877spcWfCL6Aelsk2OnsfTGcQIorDolUbpqMBkzsR/b5aEBGDXxaIy%2BBV7nCfksYvN2YTA6GlLdPWiYTh59QCojQy9kgXo/VJU26fkEZoPxk5Fwp6tv4VKamIT5YJIF8Ee4UebtsntD2fWDRmZEHnmxOzdctL/ElKT9CcsyYQ0aYF7hZgYJ/Rnnz2PKzECadFrkIfBN%2BU%2B4a76lc04Lmp5kNZbsCmslnFTsqYbPvEnwBSzCCG69IyFrOljXsXnwzbyRdNZ9nNCazGeYWhJfXmT3gEqVTTVJsw%2BXSb9heqZku5kSsxGdC50gTF6nm50jo3R6L3rIfWjxl8n1RcYeWLPV8EcoyuXUxwU%3D");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .shops_pic {
-	background-image: url("small_business.jpeg");
+	background-image: url("https://s3.amazonaws.com/fishtown-explorers/small_business.jpeg?X-Amz-Date=20170417T224703Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=f9c06bd66a9f3156b73ce6291a4548fb1028965275da4774c8093eb28f778f09&X-Amz-Credential=ASIAJ4DKAWJT23AKW32A/20170417/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=FQoDYXdzEDcaDJpUU5S82877spcWfCL6Aelsk2OnsfTGcQIorDolUbpqMBkzsR/b5aEBGDXxaIy%2BBV7nCfksYvN2YTA6GlLdPWiYTh59QCojQy9kgXo/VJU26fkEZoPxk5Fwp6tv4VKamIT5YJIF8Ee4UebtsntD2fWDRmZEHnmxOzdctL/ElKT9CcsyYQ0aYF7hZgYJ/Rnnz2PKzECadFrkIfBN%2BU%2B4a76lc04Lmp5kNZbsCmslnFTsqYbPvEnwBSzCCG69IyFrOljXsXnwzbyRdNZ9nNCazGeYWhJfXmT3gEqVTTVJsw%2BXSb9heqZku5kSsxGdC50gTF6nm50jo3R6L3rIfWjxl8n1RcYeWLPV8EcoyuXUxwU%3D");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 }
 
 .yoga_pic {
-	background-image: url("yoga.jpg");
+	background-image: url("https://s3.amazonaws.com/fishtown-explorers/yoga.jpg?X-Amz-Date=20170417T224725Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=3978366219f47603eea1b6e35cc2329fea214d4ff258ee6aade4cdc3a7182753&X-Amz-Credential=ASIAJ4DKAWJT23AKW32A/20170417/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=FQoDYXdzEDcaDJpUU5S82877spcWfCL6Aelsk2OnsfTGcQIorDolUbpqMBkzsR/b5aEBGDXxaIy%2BBV7nCfksYvN2YTA6GlLdPWiYTh59QCojQy9kgXo/VJU26fkEZoPxk5Fwp6tv4VKamIT5YJIF8Ee4UebtsntD2fWDRmZEHnmxOzdctL/ElKT9CcsyYQ0aYF7hZgYJ/Rnnz2PKzECadFrkIfBN%2BU%2B4a76lc04Lmp5kNZbsCmslnFTsqYbPvEnwBSzCCG69IyFrOljXsXnwzbyRdNZ9nNCazGeYWhJfXmT3gEqVTTVJsw%2BXSb9heqZku5kSsxGdC50gTF6nm50jo3R6L3rIfWjxl8n1RcYeWLPV8EcoyuXUxwU%3D");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .parks_pic {
-	background-image: url("penntreaty3.jpg");
+	background-image: url("https://s3.amazonaws.com/fishtown-explorers/penntreaty3.jpg?X-Amz-Date=20170417T224745Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=572d2392c7253cc4918e52894c96a710bd3473f107f2610d9ef1bc06c9cbb75a&X-Amz-Credential=ASIAJ4DKAWJT23AKW32A/20170417/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=FQoDYXdzEDcaDJpUU5S82877spcWfCL6Aelsk2OnsfTGcQIorDolUbpqMBkzsR/b5aEBGDXxaIy%2BBV7nCfksYvN2YTA6GlLdPWiYTh59QCojQy9kgXo/VJU26fkEZoPxk5Fwp6tv4VKamIT5YJIF8Ee4UebtsntD2fWDRmZEHnmxOzdctL/ElKT9CcsyYQ0aYF7hZgYJ/Rnnz2PKzECadFrkIfBN%2BU%2B4a76lc04Lmp5kNZbsCmslnFTsqYbPvEnwBSzCCG69IyFrOljXsXnwzbyRdNZ9nNCazGeYWhJfXmT3gEqVTTVJsw%2BXSb9heqZku5kSsxGdC50gTF6nm50jo3R6L3rIfWjxl8n1RcYeWLPV8EcoyuXUxwU%3D");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .music_pic {
-	background-image: url("kungFuNecktie.jpg");
+	background-image: url("https://s3.amazonaws.com/fishtown-explorers/kungFuNecktie.jpg?X-Amz-Date=20170417T224800Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=9b5c18c0943e2d09746603f48f29817ababc2dceca9489ce99fb6eb2a9474769&X-Amz-Credential=ASIAJ4DKAWJT23AKW32A/20170417/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=FQoDYXdzEDcaDJpUU5S82877spcWfCL6Aelsk2OnsfTGcQIorDolUbpqMBkzsR/b5aEBGDXxaIy%2BBV7nCfksYvN2YTA6GlLdPWiYTh59QCojQy9kgXo/VJU26fkEZoPxk5Fwp6tv4VKamIT5YJIF8Ee4UebtsntD2fWDRmZEHnmxOzdctL/ElKT9CcsyYQ0aYF7hZgYJ/Rnnz2PKzECadFrkIfBN%2BU%2B4a76lc04Lmp5kNZbsCmslnFTsqYbPvEnwBSzCCG69IyFrOljXsXnwzbyRdNZ9nNCazGeYWhJfXmT3gEqVTTVJsw%2BXSb9heqZku5kSsxGdC50gTF6nm50jo3R6L3rIfWjxl8n1RcYeWLPV8EcoyuXUxwU%3D");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .restaurants_pic {
-	background-image: url("restaurant.jpg");
+	background-image: url("https://s3.amazonaws.com/fishtown-explorers/restaurant.jpg?X-Amz-Date=20170417T224821Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=524f5b74be4474324e876f26518b7829bbfccf1afa44e304a57ce4355c004744&X-Amz-Credential=ASIAJ4DKAWJT23AKW32A/20170417/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=FQoDYXdzEDcaDJpUU5S82877spcWfCL6Aelsk2OnsfTGcQIorDolUbpqMBkzsR/b5aEBGDXxaIy%2BBV7nCfksYvN2YTA6GlLdPWiYTh59QCojQy9kgXo/VJU26fkEZoPxk5Fwp6tv4VKamIT5YJIF8Ee4UebtsntD2fWDRmZEHnmxOzdctL/ElKT9CcsyYQ0aYF7hZgYJ/Rnnz2PKzECadFrkIfBN%2BU%2B4a76lc04Lmp5kNZbsCmslnFTsqYbPvEnwBSzCCG69IyFrOljXsXnwzbyRdNZ9nNCazGeYWhJfXmT3gEqVTTVJsw%2BXSb9heqZku5kSsxGdC50gTF6nm50jo3R6L3rIfWjxl8n1RcYeWLPV8EcoyuXUxwU%3D");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .art_pic {
-	background-image: url("art.jpg");
+	background-image: url("https://s3.amazonaws.com/fishtown-explorers/art.jpg?X-Amz-Date=20170417T224838Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=f8a87561e85588d9cbb1421c77e4ad26a3adf84f5553e7915f28210bf6854e55&X-Amz-Credential=ASIAJ4DKAWJT23AKW32A/20170417/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=FQoDYXdzEDcaDJpUU5S82877spcWfCL6Aelsk2OnsfTGcQIorDolUbpqMBkzsR/b5aEBGDXxaIy%2BBV7nCfksYvN2YTA6GlLdPWiYTh59QCojQy9kgXo/VJU26fkEZoPxk5Fwp6tv4VKamIT5YJIF8Ee4UebtsntD2fWDRmZEHnmxOzdctL/ElKT9CcsyYQ0aYF7hZgYJ/Rnnz2PKzECadFrkIfBN%2BU%2B4a76lc04Lmp5kNZbsCmslnFTsqYbPvEnwBSzCCG69IyFrOljXsXnwzbyRdNZ9nNCazGeYWhJfXmT3gEqVTTVJsw%2BXSb9heqZku5kSsxGdC50gTF6nm50jo3R6L3rIfWjxl8n1RcYeWLPV8EcoyuXUxwU%3D");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .lodging_pic {
-	background-image: url("AirBNB.jpg");
+	background-image: url("https://s3.amazonaws.com/fishtown-explorers/AirBNB.jpg?X-Amz-Date=20170417T224859Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=bfe1312bcb6eebcaed30304b600330f3f14a33daf50a4e1b4a86377b4ea42a70&X-Amz-Credential=ASIAJ4DKAWJT23AKW32A/20170417/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=FQoDYXdzEDcaDJpUU5S82877spcWfCL6Aelsk2OnsfTGcQIorDolUbpqMBkzsR/b5aEBGDXxaIy%2BBV7nCfksYvN2YTA6GlLdPWiYTh59QCojQy9kgXo/VJU26fkEZoPxk5Fwp6tv4VKamIT5YJIF8Ee4UebtsntD2fWDRmZEHnmxOzdctL/ElKT9CcsyYQ0aYF7hZgYJ/Rnnz2PKzECadFrkIfBN%2BU%2B4a76lc04Lmp5kNZbsCmslnFTsqYbPvEnwBSzCCG69IyFrOljXsXnwzbyRdNZ9nNCazGeYWhJfXmT3gEqVTTVJsw%2BXSb9heqZku5kSsxGdC50gTF6nm50jo3R6L3rIfWjxl8n1RcYeWLPV8EcoyuXUxwU%3D");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .transit_pic {
-	background-image: url("subway.jpg");
+	background-image: url("https://s3.amazonaws.com/fishtown-explorers/subway.jpg?X-Amz-Date=20170417T224919Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=682a8e4321c2284c3ab12f2c1a5b225307e7ee54d83636854b6dda1f67623d2b&X-Amz-Credential=ASIAJ4DKAWJT23AKW32A/20170417/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=FQoDYXdzEDcaDJpUU5S82877spcWfCL6Aelsk2OnsfTGcQIorDolUbpqMBkzsR/b5aEBGDXxaIy%2BBV7nCfksYvN2YTA6GlLdPWiYTh59QCojQy9kgXo/VJU26fkEZoPxk5Fwp6tv4VKamIT5YJIF8Ee4UebtsntD2fWDRmZEHnmxOzdctL/ElKT9CcsyYQ0aYF7hZgYJ/Rnnz2PKzECadFrkIfBN%2BU%2B4a76lc04Lmp5kNZbsCmslnFTsqYbPvEnwBSzCCG69IyFrOljXsXnwzbyRdNZ9nNCazGeYWhJfXmT3gEqVTTVJsw%2BXSb9heqZku5kSsxGdC50gTF6nm50jo3R6L3rIfWjxl8n1RcYeWLPV8EcoyuXUxwU%3D");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .misc_pic {
-	background-image: url("misc.jpg");
+	background-image: url("https://s3.amazonaws.com/fishtown-explorers/misc.jpg?X-Amz-Date=20170417T224946Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=7adf160ff8186602f7bf56ea4ce7b960d89eb474a7572eb2cbcd819cce9099f4&X-Amz-Credential=ASIAJ4DKAWJT23AKW32A/20170417/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=FQoDYXdzEDcaDJpUU5S82877spcWfCL6Aelsk2OnsfTGcQIorDolUbpqMBkzsR/b5aEBGDXxaIy%2BBV7nCfksYvN2YTA6GlLdPWiYTh59QCojQy9kgXo/VJU26fkEZoPxk5Fwp6tv4VKamIT5YJIF8Ee4UebtsntD2fWDRmZEHnmxOzdctL/ElKT9CcsyYQ0aYF7hZgYJ/Rnnz2PKzECadFrkIfBN%2BU%2B4a76lc04Lmp5kNZbsCmslnFTsqYbPvEnwBSzCCG69IyFrOljXsXnwzbyRdNZ9nNCazGeYWhJfXmT3gEqVTTVJsw%2BXSb9heqZku5kSsxGdC50gTF6nm50jo3R6L3rIfWjxl8n1RcYeWLPV8EcoyuXUxwU%3D");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
