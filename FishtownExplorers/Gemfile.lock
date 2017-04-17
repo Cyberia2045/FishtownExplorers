@@ -113,6 +113,7 @@ GEM
       cocaine (~> 0.5.5)
       mime-types
       mimemagic (~> 0.3.0)
+    pg (0.20.0)
     puma (3.8.2)
     rabl-rails (0.4.3)
       activesupport (>= 3.1)
@@ -204,6 +205,7 @@ DEPENDENCIES
   jquery-waypoints-rails (~> 2.0, >= 2.0.5)
   listen (~> 3.0.5)
   paperclip (~> 5.0.0)
+  pg
   puma (~> 3.0)
   rabl-rails
   rails (~> 5.0.1)
